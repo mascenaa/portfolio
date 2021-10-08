@@ -1,0 +1,60 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+
+
+    background-color: #E4CF98;
+}
+
+
+@keyframes star {
+    0% {transform: rotate(4deg);}
+    50% {transform: rotate(-5deg);}
+    100% {transform: rotate(17deg);}
+    0% {transform: rotate(7deg);}
+    20% {transform: rotate(4.5deg);}
+}
+
+@keyframes waves {
+    from {margin-top:0%;}
+    to {margin-top: 12%}
+  }
+
+
+.waves {
+    width: 100%;
+}
+
+#wavestwo {
+    animation-name: wavesdown;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+
+
+    width: 100%;
+    position: absolute;
+}
+
+
+
+#star1 {
+    animation-name: star;
+    animation-duration: 25s;
+    animation-iteration-count: 2;
+
+    position: absolute;
+    top: 50%;
+    left: 4.3%;
+}
+
+#star2 {
+    animation-name: star;
+    animation-duration: 25s;
+    animation-iteration-count: 2;
+
+    position: absolute;
+    left: 90%;
+    top: 50%
+}

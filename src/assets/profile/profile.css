@@ -1,0 +1,47 @@
+.box-profile {
+    background-color: snow;
+    padding: 1rem;
+
+
+    box-shadow: 14px 15px 1px rgba(27, 26, 26, 0.308);
+    border-radius: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 75%;
+    height: 15rem;
+}
+
+.box-user{
+    display: flex;
+}
+.box-bio {
+    color:#5a7fbe;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: fit-content;
+}
+
+
+
+.avatar {
+    width: 7rem;
+    height: 7rem;
+
+
+    margin-top: -4rem;
+
+    box-shadow: 6px 3px 2px #00000060;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.user {
+    margin-top: 0rem;
+    margin-left: 1rem;
+    color:#7193ce;
+
+}
