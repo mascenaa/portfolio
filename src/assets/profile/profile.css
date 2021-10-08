@@ -1,35 +1,60 @@
 .box-profile {
+    display: flex;
+    flex-direction: column;
+
     background-color: snow;
     padding: 1rem;
 
 
     box-shadow: 14px 15px 1px rgba(27, 26, 26, 0.308);
     border-radius: 25px;
-
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
 
-    width: 75%;
-    height: 15rem;
+    width: fit-content;
+    height: 50rem;
+}
+
+.box-lg {
+    color:#526b95;
+    width: 25%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+
+    border-radius: 12px;
+}
+
+.imgsrc {
+    margin-right: 5px;
 }
 
 .box-user{
-    display: flex;
-}
-.box-bio {
+    margin-right: 1.5%;
+    margin-left: 10px;
     color:#5a7fbe;
-
-    padding-left: 1rem;
-    padding-right: 1rem;
     width: fit-content;
+
 }
 
+ul, li {
+    font-size: 19px;
+    list-style: none;
+}
+
+p {
+    font-size: 18px;
+}
+.bio-icons{
+    margin-right: 10px;
+    width: 20px;
+}
 
 
 .avatar {
     width: 7rem;
     height: 7rem;
-
 
     margin-top: -4rem;
 
@@ -41,7 +66,6 @@
 
 .user {
     margin-top: 0rem;
-    margin-left: 1rem;
     color:#7193ce;
 
 }

@@ -2,6 +2,7 @@ import React from 'react'
 
     // Modules
 import Profile from '../profile/profile'
+import Slide from '../projects/slide'
     // Assets
 import '../../assets/body/body.css'
 import 'animate.css'
@@ -14,11 +15,11 @@ export default function Body() {
 
     return (
         <body className="body">
-             <img className="waves" id="wavestwo" alt="waves" src={WavesTwo} />
-            <img className="waves" alt="waves" src={Waves} />
+            <div className="wave" />
             <Profile />
             <img id="star1" alt="star" src={Star1} />
             <img id="star2" alt="star2" src={Star2} />
+            <Slide />
         </body>
     )
 };

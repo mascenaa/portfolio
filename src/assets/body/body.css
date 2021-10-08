@@ -1,4 +1,8 @@
-.body {
+html {
+    min-height: 110vh;
+}
+
+body {
     width: 100%;
     height: 100vh;
     padding: 0px;
@@ -27,6 +31,15 @@
     width: 100%;
 }
 
+.wave {
+    background-image: url('firstwave.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    margin-bottom: -8rem;
+}
+
 #wavestwo {
     animation-name: wavesdown;
     animation-delay: 15s;
@@ -34,7 +47,7 @@
 
 
     width: 100%;
-    position: absolute;
+
 }
 
 
@@ -44,12 +57,16 @@
     animation-duration: 25s;
     animation-iteration-count: 2;
 
+    opacity: 0;
+
     position: absolute;
-    top: 50%;
-    left: 4.3%;
+    top: 35%;
+    left: 1.5%;
+
 }
 
 #star2 {
+    opacity: 0;
     animation-name: star;
     animation-duration: 25s;
     animation-iteration-count: 2;
