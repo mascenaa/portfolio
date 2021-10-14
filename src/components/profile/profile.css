@@ -5,7 +5,7 @@
     border-top: 3px solid #931A25;
 
     margin-top: 5rem;
-    height: 115vh;
+    height: 105vh;
 
 
     padding-left: 5rem;
@@ -52,7 +52,7 @@ li {
     .profilebox{
         display: flex;
         flex-direction: column;
-        height: 125vh;
+        height: 170vh;
     }
     .profile-avatar {
         width:25%;
