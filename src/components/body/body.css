@@ -1,0 +1,42 @@
+.box-text {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.box-title {
+    font-size: 72px;
+    color:rgb(255, 255, 255);
+}
+.box-p {
+    font-size: calc(72px/2);
+}
+
+.animate__animated.animate__slideInDown:hover{
+    --animation-duration: 3s;
+    --animation-iteration-count: infinite;
+}
+
+#planet {
+    width: 50%;
+}
+#color {
+    color: #931A25;
+}
+#down {
+    width: 6%;
+    margin-top: 10%;
+}
+#down:hover {
+    cursor: pointer;
+    width: 6.5%;
+}
+
+@media screen and (max-width: 640px) {
+    body {   
+      flex-direction: column;
+    }
+    #down {
+        margin-top: 85%;
+    }
+  }

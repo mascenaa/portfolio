@@ -1,0 +1,56 @@
+.projects {
+
+    border-top: 3px solid #931A25;
+
+    margin-top: 5rem;
+    height: 100vh;
+
+
+    padding-left: 5rem;
+    
+}
+
+.projects-title {
+    font-size: 2.5rem;
+
+    color: #ffffff;
+    margin-top: 7rem;
+}
+
+
+.slide {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    border:2.5px solid #931A25;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.box-title-slide {
+    font-size: 30px;
+    color:white;
+}
+
+@media screen and (max-width: 640px) {  
+    .slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 1rem;
+        margin: 10px;
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 5rem;
+    }
+}

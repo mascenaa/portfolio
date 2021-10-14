@@ -1,46 +1,38 @@
-import React from "react";
+import React from 'react'
 
-// Modules
-
-// Assets
-import "../../assets/profile/profile.css";
-import location from '../../assets/profile/location.svg'
-import mail from '../../assets/profile/mail.svg'
-import twitter from '../../assets/profile/twitter.svg'
-
+ // assets 
+import './profile.css'
 
 export default function Profile() {
-  return (
-    <div className="box-profile">
-      <div className="box-user">
-        <img className="avatar" src={"https://github.com/patrooooo.png"} />
-        <h1 className="user">mascena</h1>
-        <p>Welcome to my portfolio, I hope you enjoy this trip. </p>
-        <p>
-          Actually I am focused on Front-End, but I am ready for new
-          experiences!
-        </p>
-        <ul>
-          <li><img className="bio-icons" src={location} />sp - brazil</li>
-          <li><img className="bio-icons" src={twitter} />@webcoroinha</li>
-          <li><img className="bio-icons" src={mail} />developermascena@gmail.com</li>
-        </ul>
-      </div>
+    return (
+        <section className="profilebox">
+            <div>
+              <h1 className="profile-title">Hello, welcome to my portfolio!</h1>
+              <p className="profile-p">It is a privilege to have you here, my name is João, I live in São Paulo - Brazil. </p>
+              <p className="profile-p">Let's start our adventure? Right now I'm focused on the front-end, but in the future I intend to be a full-stack developer</p>
 
-      <div className="box-lg">
-        <h2>Languages</h2>
-        <img className="imgsrc" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-        <img className="imgsrc" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-        <h2>Frameworks</h2>
-        <img className="imgsrc" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img className="imgsrc" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-        <img className="imgsrc" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-      </div>
-    </div>
-  );
+              <h2 className="profile-title">My skills</h2>
+              <ul className="profile-list">
+                  <h3 className="profile-list-title">Languages </h3>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/HTML5-151515?style=for-the-badge&logo=html5&logoColor=orange" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/CSS3-151515?style=for-the-badge&logo=css3&logoColor=blue" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/TypeScript-151515?style=for-the-badge&logo=typescript&logoColor=blue" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/Python-151515?style=for-the-badge&logo=python&logoColor=D98C00" /></li>
+              </ul>
+                <ul className="profile-list">
+                     <h3 className="profile-list-title">Frameworks</h3>
+                     <li><img className="profileimage" alt="" src="https://img.shields.io/badge/React-151515?style=for-the-badge&logo=react&logoColor=61DAFB" /></li>
+                     <li><img className="profileimage" alt="" src="https://img.shields.io/badge/next.js-151515?style=for-the-badge&logo=nextdotjs&logoColor=white" /></li>
+                     <li><img className="profileimage" alt="" src="https://img.shields.io/badge/Express.js-151515?style=for-the-badge&logo=express&logoColor=white"/></li>
+                </ul>
+                <ul className="profile-list"> 
+                    <h3 className="profile-list-title">Learning</h3>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/-GraphQL-151515?style=for-the-badge&logo=graphql&logoColor=AE00FB" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/node.js-151515?style=for-the-badge&logo=node.js&logoColor=6ECB63" /></li>
+                    <li><img className="profileimage" alt="" src="https://img.shields.io/badge/adobeillustrator-151515.svg?style=for-the-badge&logo=adobeillustrator&logoColor=yellow" /></li>
+                </ul>
+            </div>
+        </section>
+    )
 }

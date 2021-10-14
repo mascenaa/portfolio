@@ -1,25 +1,25 @@
 import React from 'react'
 
-    // Modules
-import Profile from '../profile/profile'
-import Slide from '../projects/slide'
-    // Assets
-import '../../assets/body/body.css'
-import 'animate.css'
-import Waves from '../../assets/body/firstwave.svg'
-import WavesTwo from '../../assets/body/secondwave.svg'
-import Star1 from '../../assets/body/starfirst.svg'
-import Star2 from '../../assets/body/starsecond.svg'
+ // assets
+ import './body.css'
+ import down from '../assets/down.svg'
+ import 'animate.css';
 
 export default function Body() {
 
     return (
-        <body className="body">
-            <div className="wave" />
-            <Profile />
-            <img id="star1" alt="star" src={Star1} />
-            <img id="star2" alt="star2" src={Star2} />
-            <Slide />
+        <body className="conteiner">
+            <div className="box-text">
+                <h1 className="animate__animated animate__zoomIn box-title"><span id="color">J</span>oão <span id="color">P</span>edro <span id="color">M</span>ascena</h1>
+                <p className="animate__animated animate__zoomIn box-p">software engineer</p>
+
+
+                <img 
+                className="animate__animated animate__slideInDown" 
+                id="down" 
+                src={down} 
+                alt="scroll down" />
+            </div>
         </body>
     )
-};
+}
