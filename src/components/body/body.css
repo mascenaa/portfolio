@@ -1,35 +1,41 @@
 .box-text {
     color: white;
     text-align: center;
-    margin-top: 15%;
+    padding-top: 19%;
 }
-
+#wave {
+    background-image: url('../assets/wave.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .box-title {
+    color: white;
     font-size: 72px;
-    color:rgb(255, 255, 255);
 }
 .box-p {
+    color:white;
     font-size: calc(72px/2);
 }
 
-.animate__animated.animate__slideInDown:hover{
-    --animation-duration: 3s;
+.animate__animated.animate__slideInDown {
+    --animation-duration: 15s;
     --animation-iteration-count: infinite;
 }
 
-#planet {
-    width: 50%;
-}
 #color {
-    color: #931A25;
+    color:#FF2442;
+
 }
 #down {
-    width: 6%;
+    width: 3%;
     margin-top: 10%;
 }
 #down:hover {
     cursor: pointer;
-    width: 6.5%;
+}
+
+#icon {
+    width: 10%;
 }
 
 @media screen and (max-width: 640px) {
@@ -37,6 +43,7 @@
       flex-direction: column;
     }
     #down {
+        width: 15%;
         margin-top: 85%;
     }
   }
