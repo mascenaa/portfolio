@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: row;
 
+    height: fit-content;
 
     margin-top: 5rem;
-    height: fit-content;
     padding-left: 5rem;
 }
 
@@ -23,12 +23,12 @@
 .profile-title {
     
     font-size: 2.5rem;
-    color: #23272a;
+    color: #667eea;
     margin-top: 7rem;
     margin-bottom: 0.5rem;
 }
 .profile-p {
-    color: #181b1d;
+    color: #32393d;
     width: 60%;
     margin-left: 2rem;
     font-size: 25px;
@@ -36,7 +36,8 @@
 }
 .profile-list-title {
     margin-left: 2rem;
-    color: #23272a;
+    color: #6f8aff;
+    text-decoration: 5px wavy #23272a;
 }
 .profile-list {
     display: flex;
@@ -52,10 +53,10 @@ li {
 
 .profileimage{
 
-    border-left:3px solid #23272a;
+    border-left:3px solid #254dff;
 }
 .profileimage:hover {
-    border-left:3px solid rgb(77, 248, 182);
+    border-left:3px solid #4df8b6;
 }
 
 

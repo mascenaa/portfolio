@@ -3,6 +3,7 @@ import Slide from './components/projects/slide';
 import Profile from './components/profile/profile';
 import Contacts from './components/contact/contact';
 
+
 function App() {
   return (
     <>

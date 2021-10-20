@@ -10,7 +10,10 @@
 
 .projects-title {
     font-size: 72px;
-    color: #23272a;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-top: 5rem;
     margin-left: 5%;
 }
@@ -33,9 +36,9 @@
 }
 
 .box {
-    background-color: #272727;
-    border: none;
-    border-radius: 7px;
+    background-color: white;
+    border: 2px solid none;
+    border-radius: 8px;
     text-align: center;
     padding: 1rem;
     margin: 10px;
@@ -44,26 +47,17 @@
     word-break: keep-all;
 
     -webkit-box-shadow: 10px 9px 2px 0px rgba(0,0,0,0.33); 
-    box-shadow: 10px 9px 2px 0px rgba(0,0,0,0.33);
+    box-shadow: 10px 9px 2px 0px rgba(0,0,0,0.34);
 }
 
 .box-title-slide {
-    font-size: 30px;
-    color:#ffffff;
+    font-size: 25px;
+    border-radius: 30px;
+    color:#23272a;
 }
 .box-desc {
-    color: #ffffff;
+    color: #23272a;
 }
-.box-link {
-    padding: 5px;
-    border-left: 2px solid #404eed;
-    text-decoration: none;
-    color: #ffffff;
-}
-.box-link:hover {
-    border-left: 2px solid rgb(77, 248, 182);
-}
-
 
 @media screen and (max-width: 860px) {  
     .column1, .column2 {

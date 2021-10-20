@@ -3,7 +3,6 @@ import React from 'react'
  // assets
  import './body.css'
  import down from '../assets/down.svg'
- import icon from '../assets/icon.svg'
  import 'animate.css';
 
 export default function Body() {

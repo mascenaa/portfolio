@@ -1,0 +1,138 @@
+.contactbox {
+    margin-top: 0;
+    padding: 1rem;
+    height: 100vh;
+    background-color: white;
+}
+
+.contact-title {
+
+    font-size: 72px;
+    margin-top: 5rem;
+    margin-left: 5%;
+}
+
+
+.gradient-line {
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: fit-content;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.form-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text {
+    color:#32393d;
+    padding-left: 3px;
+    font-size: 24px;
+}
+.form-m {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+
+    font-size: 20px;
+
+    background-image: linear-gradient(90deg, #a18cd1, #fbc2eb);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+    border: none;
+    outline: none;
+
+    height: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+
+input:hover {
+
+    background-image: linear-gradient(90deg, #cd9cf2, #f6f3ff);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+textarea {
+
+    font-size: 20px;
+
+    background-image: linear-gradient(90deg, #a18cd1, #fbc2eb);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+    border: none;
+    outline: none;
+    height: 7rem;
+    margin-bottom: 2rem;
+}
+
+textarea:hover {
+
+    background-image: linear-gradient(90deg, #cd9cf2, #f6f3ff);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+button{
+    font-size: 15px;
+
+    background-color: white;
+
+    border: none;
+    border-radius: 15px;
+
+    background-image: linear-gradient(90deg, #a18cd1, #fbc2eb);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom, top;
+
+
+    height: 4rem;
+    width: fit-content;
+    outline: none;
+    margin-left: 13%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+button:hover{
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 860px) {  
+    form {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    input {
+        width: 100%;
+    }
+    button {
+        width: calc(1920px/5%);
+    }
+ }

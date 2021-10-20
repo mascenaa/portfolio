@@ -3,16 +3,32 @@
     text-align: center;
     padding-top: 19%;
 }
+#menu {
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    width: 35px;
+
+}
 #wave {
     background-image: url('../assets/wave.svg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .box-title {
+    text-shadow:
+    0.025em 0.025em 0  #7fb0ff ,
+    0.05em 0.05em 0 #c2e9fb;
     color: white;
     font-size: 72px;
 }
 .box-p {
+
+    text-shadow:
+    0.025em 0.025em 0  #7fb0ff ,
+    0.05em 0.05em 0 #c2e9fb;
+
+
     color:white;
     font-size: calc(72px/2);
 }
@@ -22,10 +38,15 @@
     --animation-iteration-count: infinite;
 }
 
-#color {
-    color:#FF2442;
 
+#color {
+    color:#ffffff;
 }
+#color:hover {
+    color:#2e2e2e;
+}
+
+
 #down {
     width: 3%;
     margin-top: 10%;
