@@ -55,6 +55,13 @@ li {
 
     border-left:3px solid #254dff;
 }
+
+.profileimage.slide{
+    border: none;
+}
+.profileimage.slide:hover{
+    border: none;
+}
 .profileimage:hover {
     border-left:3px solid #4df8b6;
 }
