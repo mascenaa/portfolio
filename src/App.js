@@ -1,18 +1,13 @@
-import Body from '../src/components/body/body'
-import Slide from './components/projects/slide';
-import Profile from './components/profile/profile';
-import Contacts from './components/contact/contact';
+import Header from "./components/header/header";
+import About from "./components/about/about";
+import Projects from "./components/projects/projects";
 
-
-function App() {
+export default function App() {
   return (
-    <>
-      <Body />
-      <Profile />
-      <Slide />
-      <Contacts />
-    </>
+    <body>
+    <Header />
+    <About />
+    <Projects />
+    </body>
   );
 }
-
-export default App;

@@ -1,0 +1,15 @@
+#text {
+    margin-top: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.rightBox.swechery, 
+.rightBox.loginstyle, 
+.middleBox.bytebank, 
+.leftBox.alurakut, 
+.middleBox.notes,
+.leftBox.gg {background-color: crimson;}
+
+

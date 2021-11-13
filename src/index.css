@@ -3,8 +3,10 @@ html {
 }
 
 body {
-    margin: 0;
-    background-color: #404eed;
+  background: linear-gradient(180deg, #000000 0%, #2a2a2a 97.92%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -18,5 +20,16 @@ body {
   }
   
 * {
-  font-family: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap';
+  font-family: 'Rubik', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f6f6f6;
+  border-radius: 12px;
 }
