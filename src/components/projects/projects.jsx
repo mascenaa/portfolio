@@ -66,13 +66,13 @@ export default function Projects() {
             </div>
 
             <div className="slide-button">
-                <button id="activefirst" onClick={() => { 
+                <button className="button" id="activefirst" onClick={() => { 
                     setEtapaA(first); 
                     }}>
                     </button>
-                <button id="activefirst" onClick={() => { setEtapaA(second) }}></button>
-                <button id="activefirst" onClick={() => { setEtapaA(third) }}></button>
-                <button id="activefirst" onClick={() => { setEtapaA(fourth) }}></button>
+                <button className="button" id="activefirst" onClick={() => { setEtapaA(second) }}></button>
+                <button className="button" id="activefirst" onClick={() => { setEtapaA(third) }}></button>
+                <button className="button" id="activefirst" onClick={() => { setEtapaA(fourth) }}></button>
             </div>
         </section>
 

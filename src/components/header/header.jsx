@@ -12,7 +12,7 @@ export default function Header() {
                 <ul className="header-nav-list">
                     <li className="header-nav-item"><a href="#about">about</a></li>
                     <li className="header-nav-item"><a href="#projects">projects</a></li>
-                    <li className="header-nav-item"><a href="">contacts</a></li>
+                    <li className="header-nav-item"><a href="#contact">contacts</a></li>
                 </ul>
             </div>
         </section>
