@@ -2,10 +2,11 @@
     margin-top: 20rem;
     text-align: center;
     height: 80vh;
+    margin-bottom: 10rem;
 }
 .contact-title {
-    font-size: calc(72px/2);
-    color: crimson;
+    font-size: calc(52px);
+    color: #e454fd;
 }
 .form-inputs{
     display: flex;
@@ -19,8 +20,8 @@ input {
     outline: none;
     padding: 0.5rem;
     background-color: #f6969600;
-    border: 1px solid crimson;
-    border-radius: 12px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
     width: 25%;
     height: 2.5rem;
     margin-bottom: 2rem;
@@ -31,8 +32,9 @@ textarea {
     outline: none;
     padding: 1rem;
     background-color: #f6969600;
-    border: 1px solid crimson;
-    border-radius: 12px;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
     width: 25%;
     height: 10rem;
     margin-bottom: 2rem;
@@ -41,7 +43,7 @@ textarea {
 .range {
     appearance: none;
     height: 1.5rem;
-    background: rgba(17, 16, 17, 0.2);
+    background: rgba(17, 16, 17, 0);
     margin-bottom: 3rem;
 }
 .range::-webkit-slider-thumb {
@@ -54,14 +56,11 @@ textarea {
 .button-form {
     color: white;
     border-radius: 6px;
-    background-color: #f6969600;
-    border: 1px solid crimson;
+    background-color: #ffffff00;
+    border: 1px solid #f09aff;
     width: 25%;
     height: 2.5rem;
 }
-
-
-
 ::placeholder {
-    color: rgb(134, 134, 134);
+    color: rgb(255, 255, 255);
 }

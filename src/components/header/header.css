@@ -1,37 +1,83 @@
 .header {
     display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
-    margin-left: 2rem;
-    height: 75vh;
+    flex-direction: row;
+    padding: 3rem;
+    border-left: 6px solid rgb(116, 114, 255);
 }
-
 .header-title {
-    margin: 0;
-    font-size: 72px;
-    margin-top: 10rem;
     text-align: center;
+    font-size: 25px;
     color: white;
 }
-#color{color:crimson;}
-a {
+.welcome {
+    height: fit-content;
+    margin-bottom: 25rem;
+}
+.welcome-title{ 
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width: 30%;
+    font-size: 72px;
+    text-shadow: 
+    0.025em 0.025em #6c6cfa;
+
+    color: white;
+}
+.welcome-about {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 6rem;
+}
+.welcome-about-paragraph {
+    font-size: 28px;
+    color: rgb(214, 214, 214);
+}
+
+#color{
+    background-image: linear-gradient(90deg, #c647dd, #6c6cfa);
+    background-clip: text;
+    color: transparent;
+}
+#lets{
+    color: #c647dd;
+    text-shadow: 
+    0.025em 0.025em #ffa6c1;
+}
+#lets:hover{
+    text-shadow: 
+    0.025em 0.025em #fa6c97;
+    color: #ff00bf;
+    transition: ease-in-out 1s;
+}
+.option {
     text-decoration: none;
     color: white;
 }
-
-.header-nav{
-    margin-left: -5rem;
-    
-    display: flex;
-    justify-content: center;
+.option:hover {
+    text-decoration: none;
+    color: rgb(198, 71, 221);
+    border-bottom: 1px solid white;
+    transition: ease-in 0.7s;
 }
+
 .header-nav-list {
+    margin-left:auto;
     display: flex;
     justify-items: center;
     list-style: none;
 }
 
 .header-nav-item { 
-    margin: 1rem;
+    margin-top: 0.70rem;
+    padding-left: 1rem;
+    font-size: 18px;
     color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    .welcome {
+        height: fit-content;
+        margin-bottom: 15rem;
+    }
 }

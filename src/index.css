@@ -1,9 +1,10 @@
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
-  background: linear-gradient(180deg, #000000 0%, #2c2c2c );
+  background: linear-gradient(90deg, #000000, #131313 );
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;

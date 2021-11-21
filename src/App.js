@@ -7,7 +7,6 @@ export default function App() {
   return (
     <body>
     <Header />
-    <About />
     <Projects />
     <Contact />
     </body>

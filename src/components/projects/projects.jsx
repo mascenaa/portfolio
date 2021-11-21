@@ -20,7 +20,7 @@ export default function Projects() {
                     <>
                         <div className="rightBox swechery">
                             <p id="text">
-                                <a>Swecherry<p>made in react</p></a>
+                                <a>Swecherry<p>redirect me</p></a>
                             </p>
                         </div>
                         <div className="middleBox bytebank"><p id="text"><a>ByteBank<p>made in react</p></a></p></div>
@@ -59,7 +59,7 @@ export default function Projects() {
 
     return (
         <section className="projects" id="projects">
-            <h2 className="projects-title">My projects</h2>
+            <h2 className="projects-title">PRO<span id="color">J</span>ECTS</h2>
 
             <div className="column">
                 {Slides(etapaA)}

@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 .rightBox.swechery, 
 .rightBox.loginstyle, 
 .middleBox.bytebank, 
 .leftBox.alurakut, 
 .middleBox.notes,
-.leftBox.gg {background-color: crimson;}
+.leftBox.gg {
+
+    background-color: rgb(255, 255, 255);
+}
 
 
