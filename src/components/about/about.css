@@ -1,39 +1,71 @@
 .about {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 12rem;
-    margin-bottom: 25rem;
+    height: fit-content;
+    margin-bottom: 25em;
 }
-.icon{
-    box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
+
+.skills-title {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    font-size: 72px;
+    color: #ffffff;
 }
-.icon:hover {
-    animation: pulse;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-.about-body {
-    color: crimson;
-}
-.about-block{
-    width: 50%;
-    margin: auto;
-}
-.about-title {
-    font-size: calc(72px/2);
-}
-.about-title-skills {
-    margin-top: 5rem;
-    font-size: calc(72px/2);
+.sub-title {
+    font-size: 32px;
 }
 .about-paragraph {
-    font-size: calc(72px/4);
-    color: #e0e0e0;
+    width: 25%;
+    font-size: 25px;
+    margin-left: 2rem;
+    color: rgb(214, 214, 214);
+}
+
+.prg, .dzn {
+    color: white;
+    margin-left: 6rem;
+}
+
+.prg-active {
+    width: 25px;
+    border-bottom: 2px solid #ff3fd5;
+}
+.dzn-active {
+    width: 25px;
+    border-bottom: 2px solid #3f6cff;
+}
+
+
+.list-of-skills {
+    font-size: 20px;
+    list-style: none;
+}
+
+.itens-of-skills {
+    color: #ffffff;
+}
+
+.itens-of-skills:hover {
+    color: #6c6cfa;
+    cursor: default;
+    transition: 1s ease;
+}
+.itens-of-skills::before {
+    content: "▸";
+    margin-right: .5rem;
+    color: #6c6cfa;
+    list-style-type: none;
+}
+.itens-of-skills.pr::before {
+    color: #ff3fd5;
+}
+.itens-of-skills.pr:hover {
+    color: #ff3fd5;
+    cursor: default;
+    transition: 1s ease;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about {
+        height: fit-content;
+    }
 }
