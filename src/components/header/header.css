@@ -17,8 +17,6 @@
     margin-left: 5rem;
     width: 30%;
     font-size: 72px;
-    text-shadow: 
-    0.025em 0.025em #6c6cfa;
 
     color: white;
 }
@@ -38,15 +36,11 @@
     color: transparent;
 }
 #lets{
-    color: #c647dd;
+    color: #ffffff;
     text-shadow: 
-    0.025em 0.025em #ffa6c1;
-}
-#lets:hover{
-    text-shadow: 
-    0.025em 0.025em #fa6c97;
-    color: #ff00bf;
-    transition: ease-in-out 1s;
+    0.03em 0.03em #7777ff,
+    0.05em 0.05em #c647dd
+    ;
 }
 .option {
     text-decoration: none;

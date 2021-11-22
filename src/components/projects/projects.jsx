@@ -18,38 +18,72 @@ export default function Projects() {
             case first:
                 return (
                     <>
-                        <div className="rightBox swechery">
-                            <p id="text">
-                                <a>Swecherry<p>redirect me</p></a>
-                            </p>
-                        </div>
-                        <div className="middleBox bytebank"><p id="text"><a>ByteBank<p>made in react</p></a></p></div>
-                        <div className="leftBox alurakut"><p id="text"><a>Alurakut<p>made in next.js</p></a></p></div>
-                    </>
+                    <div className="project-box">
+                        <h1 className="project-title">Sweecherry</h1>
+                            <div className="project-desc">
+                                <h2 className="project-subtitle">Description</h2>
+                                <p className="project-desctext">Site made for a bakery in Rio De Janeiro, in colaboration with @diasproductor. </p>
+                            </div>
+                            <div className="project-tech">
+                                <h2 className="project-subtitle">Tecnologies</h2>
+                                <p className="project-desctext">React and GraphQL</p>
+                            </div>
+                    </div>
+                    <img className="image" src={'https://github.com/patrooooo.png'} />
+                     </>
                 );
             case second:
                 return (
                     <>
-                        <div className="rightBox loginstyle"><p id="text"><a>LoginStyle<p>made in react</p></a></p></div>
-                        <div className="middleBox notes"><p id="text"><a>Notes<p>made in react</p></a></p></div>
-                        <div className="leftBox gg"><p id="text"><a>GuessingGame<p>made in python</p></a></p></div>
-                    </>
+                    <div className="project-box">
+                        <h1 className="project-title">ByteBank</h1>
+                            <div className="project-desc">
+                                <h2 className="project-subtitle">Description</h2>
+                                <p className="project-desctext">Building a bank is a very old dream, 
+                                but now with the power of code this dream is closer</p>
+                            </div>
+                            <div className="project-tech">
+                                <h2 className="project-subtitle">Tecnologies</h2>
+                                <p className="project-desctext">React</p>
+                            </div>
+                    </div>
+                    <img className="image" src={'https://github.com/patrooooo.png'} />
+                     </>
                 );
             case third:
                 return (
                     <>
-                        <div className="rightBox"><p id="text"><a>Soon</a></p></div>
-                        <div className="middleBox"><p id="text"><a>Soon</a></p></div>
-                        <div className="leftBox"><p id="text"><a>Soon</a></p></div>
-                    </>
+                    <div className="project-box">
+                        <h1 className="project-title">Noteblock</h1>
+                            <div className="project-desc">
+                                <h2 className="project-subtitle">Description</h2>
+                                <p className="project-desctext">One of my first projects in react, 
+                                helped me focus on my dreams</p>
+                            </div>
+                            <div className="project-tech">
+                                <h2 className="project-subtitle">Tecnologies</h2>
+                                <p className="project-desctext">React and GraphQL</p>
+                            </div>
+                    </div>
+                    <img className="image" src={'https://github.com/patrooooo.png'} />
+                     </>
                 );
             case fourth:
                 return (
                     <>
-                        <div className="rightBox"><p id="text"><a>Soon</a></p></div>
-                        <div className="middleBox"><p id="text"><a>Soon</a></p></div>
-                        <div className="leftBox"><p id="text"><a>Soon</a></p></div>
-                    </>
+                    <div className="project-box">
+                        <h1 className="project-title">Soon</h1>
+                            <div className="project-desc">
+                                <h2 className="project-subtitle">Description</h2>
+                                <p className="project-desctext">Soon</p>
+                            </div>
+                            <div className="project-tech">
+                                <h2 className="project-subtitle">Tecnologies</h2>
+                                <p className="project-desctext">Soon</p>
+                            </div>
+                    </div>
+                    <img className="image" src={'https://github.com/patrooooo.png'} />
+                     </>
                 );
             default:
                 return console.log("err")
