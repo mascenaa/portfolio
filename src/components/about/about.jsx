@@ -6,7 +6,9 @@ export default function About() {
     return (
         <section id="about" className="about">
             <div className="skills">
+ 
                 <h3 className="skills-title">SKILLS</h3>
+    
                     <div className="prg">
                         <h2 className="sub-title prg-active">Programming</h2>
                             <p className="about-paragraph">I specialize in building websites, so that includes the front-end, and a part of the back-end</p>
